@@ -13,7 +13,7 @@ display: flex;
 }
 
 a{
-    color: #FFFFFF;
+    color: #DADADA;
     text-decoration: none;
     font-size: 20px;
     padding-left: 80px;
@@ -26,6 +26,7 @@ a:hover{
 .links_container{
     width: 90vw;
     height: 5vh;
+    margin-left: -100px;
     // background: red;
     margin-top: 15px;
     order: 0;
@@ -34,14 +35,14 @@ a:hover{
 }
 
 a:visited{
-    color: #FFFFFF;
+    color: #DADADA;
     text-decoration: none;
     font-size: 20px;
     padding-left: 80px;
 }
 
 a:active{
-    color: #FFFFFF;
+    color: #DADADA;
     text-decoration: none;
     font-size: 20px;
     padding-left: 80px;

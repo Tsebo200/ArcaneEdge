@@ -5,9 +5,7 @@ function Dashboard() {
   return (<>
 
     <NavBar/>
-    <div>Dashboard
-      <div className="yes"></div>
-    </div>
+
     </>
 
   )
