@@ -1,34 +1,34 @@
-@import '../../Scss/Style.scss';
+@import '../../../Scss/Style.scss';
 
 @font-face {
     font-family: "AvenirMedium";
-    src: url("../../Fonts/Avenir_Medium.ttf");
+    src: url("../../../Fonts/Avenir_Medium.ttf");
   }
 
   @font-face {
     font-family: "AvenirRegular";
-    src: url("../../Fonts/Avenir_Regular.ttf");
+    src: url("../../../Fonts/Avenir_Regular.ttf");
   }
 
   @font-face {
     font-family: "AvenirBlack";
-    src: url("../../Fonts/Avenir_Black.ttf");
+    src: url("../../../Fonts/Avenir_Black.ttf");
   }
 
   @font-face {
     font-family: "PoppinsRegular";
-    src: url("../../Fonts/Poppins_Regular.ttf");
+    src: url("../../../Fonts/Poppins_Regular.ttf");
   }
 
   @font-face {
     font-family: "PoppinsBold";
-    src: url("../../Fonts/Poppins_Bold.ttf");
+    src: url("../../../Fonts/Poppins_Bold.ttf");
   }
 
 .mainContainer{
     width: 100vw;
     height: 540px;
-    background-image: url('../../../Assets/heroPicture.png');
+    background-image: url('../../../../Assets/heroPicture.png');
     background-size: cover;
     background-position: bottom;
     float: left;
