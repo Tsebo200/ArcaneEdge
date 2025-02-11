@@ -1,0 +1,62 @@
+@import '../../Scss/Style.scss';
+
+.header{
+width: 100vw;
+height: 97px;    
+background: #1E222B;
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+a:hover{
+    color: white;
+}
+
+.links_container{
+    width: 90vw;
+    height: 5vh;
+    // background: red;
+    margin-top: 15px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+a:active{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
