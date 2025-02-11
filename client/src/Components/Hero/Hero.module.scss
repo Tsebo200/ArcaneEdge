@@ -1,8 +1,28 @@
-@import '../Scss/Style.scss';
+@import '../../Scss/Style.scss';
 
 @font-face {
-    font-family: "Avenir";
-    src: url("../fonts/BEYNO.ttf");
+    font-family: "AvenirMedium";
+    src: url("../../Fonts/Avenir_Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "AvenirRegular";
+    src: url("../../Fonts/Avenir_Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "AvenirBlack";
+    src: url("../../Fonts/Avenir_Black.ttf");
+  }
+
+  @font-face {
+    font-family: "PoppinsRegular";
+    src: url("../../Fonts/Poppins_Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "PoppinsBold";
+    src: url("../../Fonts/Poppins_Bold.ttf");
   }
 
 .mainContainer{
@@ -35,8 +55,8 @@
             float: left;
 
             .headerText{
-                font-size: 45px;
-                font-family: Avenir;
+                font-size: 40px;
+                font-family: AvenirMedium;
                 float: left;
             }
         }
