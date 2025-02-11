@@ -1,0 +1,55 @@
+@import '../Scss/Style.scss';
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/BEYNO.ttf");
+  }
+
+.mainContainer{
+    width: 100vw;
+    height: 540px;
+    background-image: url('../../../Assets/heroPicture.png');
+    background-size: cover;
+    background-position: bottom;
+    float: left;
+}
+
+.allHeroComps{
+    width: 420px;
+    height: 328px;
+    margin-top: 49px;
+    margin-left: 90px;
+    background: red;
+    float: left;
+
+    .allTextContainer{
+        width: 420px;
+        height: 272px; 
+        background: blue;
+        float: left;
+
+        .headerContainer{
+            width: 365px;
+            height: 106px;
+            background: grey;
+            float: left;
+
+            .headerText{
+                font-size: 45px;
+                font-family: Avenir;
+                float: left;
+            }
+        }
+    }
+    .exploreBtn{
+
+    }
+}
+
+
+
+.headerContainer{
+    width: 355px;
+    height: 120px;
+    float: left;
+}
