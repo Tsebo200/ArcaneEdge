@@ -1,0 +1,55 @@
+@import '../../Scss/Style.scss';
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url("../../Fonts/Poppins_Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "PoppinsBold";
+    src: url("../../Fonts/Poppins_Bold.ttf");
+  }
+
+  .cardOne{
+    width: 227px;
+    height: 349px;
+    margin-top: 17px;
+    margin-left: 50px;
+    background: white;
+    float: left;
+
+    .imgContainer{
+      width: 227px;
+      height: 181px;
+      background-image: url('../../../Assets/AboutUs.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .aboutUsHeading{
+      font-family: "PoppinsBold";
+      font-size: 18px;
+    }
+
+    // .aboutUsContainer{
+    //   width: 195px;
+    //   height: 68px;
+    //   background: red;
+
+      .aboutUsText{
+        font-family: "PoppinsRegular";
+        font-size: 11px;
+        padding: 10px;
+      }
+
+    
+
+  
+
+    .learnBtn{
+      width: 90px;
+      height: 25px;
+      margin-left: 64px;
+      margin-top: 23px;
+      background: blue;;
+    }
+  }

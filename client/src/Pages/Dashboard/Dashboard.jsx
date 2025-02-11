@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../../Components/NavBar/NavBar'
 import Hero from '../../Components/Sections/Hero/Hero'
-import CardSection from '../../Components/Sections/CradSection/CardSection'
+import CardSection from '../../Components/Sections/CardSection/CardSection'
 
 function Dashboard() {
   return (<>
