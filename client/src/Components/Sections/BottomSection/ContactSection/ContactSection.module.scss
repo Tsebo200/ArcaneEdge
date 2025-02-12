@@ -1,1 +1,125 @@
 @import '../../../../Scss/Style.scss';
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url("../../../../Fonts/Poppins_Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "PoppinsBold";
+    src: url("../../../../Fonts/Poppins_Bold.ttf");
+  }
+
+
+.mainContainer{
+    width: 215px;
+    height: 230px;
+    margin-left: 70px;
+    margin-top: 135px;
+    float: left;
+
+    .contactHead{
+        color: white;
+        font-size: PoppinsRegular;
+        font-size: 42px;
+        text-align: start;
+    }
+    
+    .contactBody{
+        color: white;
+        font-size: 13px;
+        margin-top: 10px;
+        font-size: PoppinsRegular;
+        text-align: start;
+    }
+    
+    .getInTouch{
+        width: 213px;
+        height: 35px;
+        border-radius: 17.5px;
+        margin-top: 20px;
+        background: #47697A;
+        float: left;
+    
+        .getInTouchText{
+            font-size: 15px;
+            margin-top: 8px;
+            color: white;
+        }
+    }
+    
+    .iconContainer{
+        width: 215px;
+        height: 52px;
+        margin-top: 20px;
+        float: left;
+
+        .xContainer{
+            width: 43px;
+            height: 43px;
+            background: #DADADA;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #47697A;
+            border-radius: 360px;
+            float: left;
+
+            .xIcon{
+                width: 27px;
+                height: 26px;
+                margin-top: 8px;
+                margin-left: 8px;
+                background-image: url('../../../../../Assets/x.png');
+                background-position: center;
+                background-size: cover;
+                float: left;
+            }
+        }
+
+        .pinterestContainer{
+            width: 43px;
+            height: 43px;
+            margin-left: 28px;
+            background: #DADADA;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #47697A;
+            border-radius: 360px;
+            float: left;
+
+            .pinterestIcon{
+                width: 27px;
+                height: 26px;
+                margin-top: 8px;
+                margin-left: 8px;
+                background-image: url('../../../../../Assets/pinterest.png');
+                background-position: center;
+                background-size: cover;
+                float: left;
+            }
+        }
+        .linkedInContainer{
+            width: 43px;
+            height: 43px;
+            margin-left: 28px;
+            background: #DADADA;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #47697A;
+            border-radius: 360px;
+            float: left;
+
+            .linkedInIcon{
+                width: 27px;
+                height: 26px;
+                margin-top: 8px;
+                margin-left: 8px;
+                background-image: url('../../../../../Assets/linkedIn.png');
+                background-position: center;
+                background-size: cover;
+                float: left;
+            }
+        }
+    }
+}
+
