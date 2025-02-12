@@ -3,7 +3,7 @@
 .header{
 width: 100vw;
 height: 97px;    
-background: #1E222B;
+background: #C7C4BD;
 display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -13,14 +13,14 @@ display: flex;
 }
 
 a{
-    color: #DADADA;
+    color: #565A5C;
     text-decoration: none;
     font-size: 20px;
     padding-left: 80px;
 }
 
 a:hover{
-    color: white;
+    color: #1E222B;
 }
 
 .links_container{
@@ -35,14 +35,14 @@ a:hover{
 }
 
 a:visited{
-    color: #DADADA;
+    color: #565A5C;
     text-decoration: none;
     font-size: 20px;
     padding-left: 80px;
 }
 
 a:active{
-    color: #DADADA;
+    color: #565A5C;
     text-decoration: none;
     font-size: 20px;
     padding-left: 80px;
@@ -57,7 +57,7 @@ a:link {
 
 a:hover {
     text-decoration: none;
-    color: white;
+    color: #1E222B;
 }
 
 

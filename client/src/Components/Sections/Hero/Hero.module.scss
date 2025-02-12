@@ -139,10 +139,11 @@
         float: left;
 
         .exploreBtn{
+          cursor: pointer;
             width: 194px;
             height: 38px;
             border-radius: 19px;
-            background: #47697A;
+            background: #565A5C;
             box-shadow: -5px 5px 4px 0px  rgb(0 0 0 / 0.25), -5px 5px 4px 0px rgb(0 0 0 / 0.15), 3px 0px 4.5px 0px rgb(255 255 255 /0.70);
             float: left;
 
@@ -152,7 +153,8 @@
             }
         }
         .exploreBtn:hover{
-            background: #2E4559
+            background: #47697A;
+
         }
     }
 }
