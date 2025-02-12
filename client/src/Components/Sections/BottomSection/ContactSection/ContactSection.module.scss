@@ -39,13 +39,19 @@
         border-radius: 17.5px;
         margin-top: 20px;
         background: #47697A;
+        box-shadow: -5px 5px 4px 0px rgb(0 0 0 / 0.25), -5px 5px 4px 0px rgb(0 0 0 / 0.15), 3px 0px 4.5px 0px rgb(255 255 255 / 0.70);
         float: left;
     
         .getInTouchText{
             font-size: 15px;
             margin-top: 8px;
-            color: white;
+            color: #C7C6C1;
+
+           
         }
+    }
+    .getInTouch:hover{
+        background: #2E4559
     }
     
     .iconContainer{
@@ -61,6 +67,7 @@
             border-style: solid;
             border-width: 5px;
             border-color: #47697A;
+            box-shadow: -5px 5px 4px 0px rgb(0 0 0 / 0.25), -5px 5px 4px 0px rgb(0 0 0 / 0.15), -4px 3px 4px 0px rgb(56 156 219 / 0.75), -2px 2px 3px 0px rgb(180 226 255 / 0.75), -2px 4px 4px 0px rgb(255 255 255 / 0.25), 3px 0px 4.5px 0px rgb(255 255 255 / 0.70);
             border-radius: 360px;
             float: left;
 
@@ -84,6 +91,7 @@
             border-style: solid;
             border-width: 5px;
             border-color: #47697A;
+            box-shadow: -5px 5px 4px 0px rgb(0 0 0 / 0.25), -5px 5px 4px 0px rgb(0 0 0 / 0.15), -4px 3px 4px 0px rgb(56 156 219 / 0.75), -2px 2px 3px 0px rgb(180 226 255 / 0.75), -2px 4px 4px 0px rgb(255 255 255 / 0.25), 3px 0px 4.5px 0px rgb(255 255 255 / 0.70);
             border-radius: 360px;
             float: left;
 
@@ -107,6 +115,7 @@
             border-width: 5px;
             border-color: #47697A;
             border-radius: 360px;
+            box-shadow: -5px 5px 4px 0px rgb(0 0 0 / 0.25), -5px 5px 4px 0px rgb(0 0 0 / 0.15), -4px 3px 4px 0px rgb(56 156 219 / 0.75), -2px 2px 3px 0px rgb(180 226 255 / 0.75), -2px 4px 4px 0px rgb(255 255 255 / 0.25), 3px 0px 4.5px 0px rgb(255 255 255 / 0.70);
             float: left;
 
             .linkedInIcon{
