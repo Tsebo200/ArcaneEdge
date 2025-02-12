@@ -84,7 +84,14 @@
             }
         }
         .xContainer:hover{
-            background: #2E4559
+            background: #2E4559;
+            border-color: #DADADA;
+
+        }
+        .xIcon:hover{
+            background-image: url('../../../../Assets/xHover.png');
+            background-position: center;
+            background-size: cover;
         }
 
         .pinterestContainer{
@@ -111,6 +118,18 @@
                 float: left;
             }
         }
+
+        .pinterestContainer:hover{
+            background: #2E4559;
+            border-color: #DADADA;
+        }
+
+        .pinterestIcon:hover{
+            background-image: url('../../../../Assets/pinHover.png');
+            background-position: center;
+            background-size: cover;
+        }
+
         .linkedInContainer{
             cursor: pointer;
             width: 43px;
@@ -135,6 +154,18 @@
                 float: left;
             }
         }
+
+        .linkedInContainer:hover{
+            background: #2E4559;
+            border-color: #DADADA;
+        }
+
+        .linkedInIcon:hover{
+            background-image: url('../../../../Assets/linkHover.png');
+            background-position: center;
+            background-size: cover;
+        }
+
     }
 }
 
