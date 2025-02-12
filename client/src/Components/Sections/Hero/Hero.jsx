@@ -5,21 +5,21 @@ import VideoLink from "../../../Assets/ArcaneEdge_Vid.mp4"
 function Hero() {
 
 
-  // const videoRef = React.useRef(null);
+  const videoRef = React.useRef(null);
 
-  // React.useEffect(() => {
-  //   // Attempt to play when component mounts
-  //   const playVideo = async () => {
-  //     try {
-  //       await videoRef.current.play();
-  //     } catch (err) {
-  //       console.log("Autoplay was prevented:", err);
-  //       // Video will show controls and user can play manually
-  //     }
-  //   };
+  React.useEffect(() => {
+    // Attempt to play when component mounts
+    const playVideo = async () => {
+      try {
+        await videoRef.current.play();
+      } catch (err) {
+        console.log("Autoplay was prevented:", err);
+        // Video will show controls and user can play manually
+      }
+    };
     
-  //   playVideo();
-  // }, []);
+    playVideo();
+  }, []);
 
 
 
@@ -31,17 +31,16 @@ function Hero() {
         {/* <video className="demoVid" width="640" height="264" controls src="../../../../public/ArcaneEdge_Vid.mp4"></video>  */}
         <div className={styles.videoContainer}>
 
-{/* Uncomment for video */}
 
-    {/* <video 
+    <video 
       className={styles.responsiveVideo}
-      // ref={videoRef}
+      ref={videoRef}
       src={VideoLink} 
       autoPlay 
       loop
       playsInline
       controls
-    /> */}
+    />
 
 
 
