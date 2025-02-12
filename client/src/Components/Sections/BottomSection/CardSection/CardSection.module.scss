@@ -1,0 +1,18 @@
+@import '../../../../Scss/Style.scss';
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url("../../../../Fonts/Poppins_Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "PoppinsBold";
+    src: url("../../../../Fonts/Poppins_Bold.ttf");
+  }
+
+  .mainContainer{
+    width: 100vw;
+    height: 390px;
+    background: #2B4458;
+    float: left;
+  }
