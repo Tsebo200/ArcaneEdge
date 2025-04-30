@@ -10,7 +10,10 @@ function Dashboard() {
 
     <NavBar/>
     <HeroTwo/>
+    {/* <Hero/> */}
     <BottomSection/>
+
+ 
     </>
 
   )
