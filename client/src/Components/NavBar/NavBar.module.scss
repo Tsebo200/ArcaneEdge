@@ -1,5 +1,10 @@
 @import '../../Scss/Style.scss';
 
+@font-face {
+    font-family: "Baloo2";
+    src: url("../../Fonts/Baloo2_Medium.ttf");
+  }
+
 .header{
 width: 100vw;
 height: 97px;    
@@ -15,7 +20,7 @@ display: flex;
 a{
     color: #565A5C;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 21px;
     padding-left: 80px;
 }
 
@@ -27,6 +32,7 @@ a:hover{
     width: 90vw;
     height: 5vh;
     margin-left: -100px;
+    font-family: Baloo2;
     // background: red;
     margin-top: 15px;
     order: 0;

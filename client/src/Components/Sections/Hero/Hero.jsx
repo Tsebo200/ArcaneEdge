@@ -29,6 +29,8 @@ function Hero() {
       {/* <video src={'https://youtu.be/moSKhf-566A?si=cEZ-D-TwNrk1BV7o'} width="600" height="300" controls="controls" autoplay="true" /> */}
       {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/moSKhf-566A?si=cEZ-D-TwNrk1BV7o&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
         {/* <video className="demoVid" width="640" height="264" controls src="../../../../public/ArcaneEdge_Vid.mp4"></video>  */}
+        
+        
         <div className={styles.videoContainer}>
 
 
